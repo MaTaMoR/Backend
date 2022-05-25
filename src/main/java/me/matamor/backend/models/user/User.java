@@ -1,6 +1,7 @@
 package me.matamor.backend.models.user;
 
 import lombok.*;
+import me.matamor.backend.models.image.Image;
 import me.matamor.backend.models.permissions.role.Role;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
@@ -44,10 +45,6 @@ public class User {
     @Column(name = "surnames")
     private String surnames;
 
-    @Nullable
-    @Column(name = "avatar")
-    private String avatar;
-
     @CreatedDate
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "register_date")
@@ -62,6 +59,10 @@ public class User {
     @Column(name = "password")
     private String password;
 
+    @Nullable
+    @ManyToOne
+    private Image image;
+
     @ManyToMany
     @JoinTable(
             name = "users_roles",
@@ -71,11 +72,10 @@ public class User {
                     name = "role_id", referencedColumnName = "id"))
     private List<Role> roles;
 
-    public User(String username, String name, String surnames, String avatar, String email, String password, List<Role> roles) {
+    public User(String username, String name, String surnames, String email, String password, List<Role> roles) {
         this.username = username;
         this.name = name;
         this.surnames = surnames;
-        this.avatar = avatar;
         this.email = email;
         this.password = password;
         this.roles = roles;

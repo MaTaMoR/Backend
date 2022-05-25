@@ -6,6 +6,7 @@ import javax.persistence.metamodel.ListAttribute;
 import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
 import me.matamor.backend.models.book.Book;
+import me.matamor.backend.models.image.Image;
 import me.matamor.backend.models.likes.Like;
 import me.matamor.backend.models.user.User;
 
@@ -13,7 +14,7 @@ import me.matamor.backend.models.user.User;
 @StaticMetamodel(Review.class)
 public abstract class Review_ {
 
-	public static volatile SingularAttribute<Review, String> image;
+	public static volatile SingularAttribute<Review, Image> image;
 	public static volatile SingularAttribute<Review, Integer> score;
 	public static volatile SingularAttribute<Review, Date> reviewDate;
 	public static volatile SingularAttribute<Review, String> review;

@@ -3,24 +3,20 @@ package me.matamor.backend.models.book;
 import java.util.ArrayList;
 import java.util.List;
 import javax.annotation.processing.Generated;
-import me.matamor.backend.filter.autor.AutorFilter;
 import me.matamor.backend.filter.book.BookFilter;
 import me.matamor.backend.filter.category.CategoryFilter;
-import me.matamor.backend.filter.editorial.EditorialFilter;
 import me.matamor.backend.models.autor.AutorMapper;
-import me.matamor.backend.models.autor.AutorRequest;
 import me.matamor.backend.models.category.Category;
 import me.matamor.backend.models.category.CategoryMapper;
 import me.matamor.backend.models.category.CategoryRequest;
 import me.matamor.backend.models.category.CategoryResponse;
 import me.matamor.backend.models.editorial.EditorialMapper;
-import me.matamor.backend.models.editorial.EditorialRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-05-21T19:17:43+0200",
+    date = "2022-05-25T22:19:53+0200",
     comments = "version: 1.5.0.RC1, compiler: javac, environment: Java 15.0.2 (Amazon.com Inc.)"
 )
 @Component
@@ -79,8 +75,8 @@ public class BookMapperImpl implements BookMapper {
         bookFilter.bookType( request.getBookType() );
         bookFilter.publishedDate( request.getPublishedDate() );
         bookFilter.totalPages( request.getTotalPages() );
-        bookFilter.autor( autorRequestToAutorFilter( request.getAutor() ) );
-        bookFilter.editorial( editorialRequestToEditorialFilter( request.getEditorial() ) );
+        bookFilter.autor( autorMapper.toFilter( request.getAutor() ) );
+        bookFilter.editorial( editorialMapper.toFilter( request.getEditorial() ) );
         bookFilter.categories( categoryRequestListToCategoryFilterList( request.getCategories() ) );
         bookFilter.titleCriteria( request.getTitleCriteria() );
         bookFilter.descriptionCriteria( request.getDescriptionCriteria() );
@@ -124,40 +120,6 @@ public class BookMapperImpl implements BookMapper {
         }
 
         return list1;
-    }
-
-    protected AutorFilter autorRequestToAutorFilter(AutorRequest autorRequest) {
-        if ( autorRequest == null ) {
-            return null;
-        }
-
-        AutorFilter.AutorFilterBuilder autorFilter = AutorFilter.builder();
-
-        if ( autorRequest.getId() != null ) {
-            autorFilter.id( Long.parseLong( autorRequest.getId() ) );
-        }
-        autorFilter.name( autorRequest.getName() );
-        autorFilter.surnames( autorRequest.getSurnames() );
-        autorFilter.nameCriteria( autorRequest.getNameCriteria() );
-        autorFilter.surnamesCriteria( autorRequest.getSurnamesCriteria() );
-
-        return autorFilter.build();
-    }
-
-    protected EditorialFilter editorialRequestToEditorialFilter(EditorialRequest editorialRequest) {
-        if ( editorialRequest == null ) {
-            return null;
-        }
-
-        EditorialFilter.EditorialFilterBuilder editorialFilter = EditorialFilter.builder();
-
-        editorialFilter.nameCriteria( editorialRequest.getNameCriteria() );
-        if ( editorialRequest.getId() != null ) {
-            editorialFilter.id( Long.parseLong( editorialRequest.getId() ) );
-        }
-        editorialFilter.name( editorialRequest.getName() );
-
-        return editorialFilter.build();
     }
 
     protected List<CategoryFilter> categoryRequestListToCategoryFilterList(List<CategoryRequest> list) {

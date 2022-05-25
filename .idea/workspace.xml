@@ -5,431 +5,242 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57e994e8-9438-4ab2-a974-dd5d293997dc" name="Changes" comment="Backend">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spullara_mustache_java_compiler_0_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_9_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_138.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_2_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_core_2_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_models_2_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_4_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_11_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_11_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_1_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_text_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_62.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_62.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_62.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_21_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_core_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_8_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_jpamodelgen_5_6_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_cdi_7_0_4_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_5_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mariadb_jdbc_mariadb_java_client_3_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_4_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_common_1_6_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_ui_1_6_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_webmvc_core_1_6_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_oauth2_resource_server_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_core_5_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_jose_5_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_resource_server_5_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity5_3_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_15_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_5_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_font_awesome_6_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_popper_js_2_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_swagger_ui_4_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_0_45.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_48.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/Backend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/auth/AuthMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/auth/AuthenticationManagerProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/auth/JwtAuthConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/auth/JwtAuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/auth/JwtToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/auth/JwtTokenUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/auth/JwtUserDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/auth/requests/AuthLoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/auth/requests/AuthRegisterUserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/auth/requests/AuthUserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/auth/response/AuthResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/configs/ConfiguracionServidor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/configs/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/controllers/BasicJpaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/controllers/api/book/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/controllers/api/category/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/controllers/api/review/ReviewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/controllers/impl/book/BookControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/controllers/impl/category/CategoryControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/controllers/impl/review/ReviewControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/filter/FilterCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/filter/FilterMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/filter/FilterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/filter/RepositoryFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/filter/SpecificationBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/filter/autor/AutorFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/filter/book/BookFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/filter/category/CategoryFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/filter/editorial/EditorialFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/filter/permissions/privilege/PrivilegeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/filter/permissions/role/RolePrivilege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/filter/review/ReviewFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/filter/user/UserFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/autor/Autor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/autor/AutorMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/autor/AutorRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/autor/AutorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/book/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/book/BookMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/book/BookRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/book/BookResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/book/serie/BookSerie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/book/serie/BookSerieMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/book/serie/BookSerieRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/book/serie/BookSerieResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/book/type/BookType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/category/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/category/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/category/CategoryRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/category/CategoryResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/editorial/Editorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/editorial/EditorialMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/editorial/EditorialRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/editorial/EditorialResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/likes/Like.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/likes/LikeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/likes/LikeResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/page/PageResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/page/PageableMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/page/request/OrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/page/request/PageableRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/page/request/SortRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/page/response/OrderResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/page/response/PageableResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/page/response/SortResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/permissions/privilege/Privilege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/permissions/privilege/PrivilegeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/permissions/privilege/PrivilegeResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/permissions/role/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/permissions/role/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/permissions/role/RoleResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/review/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/review/ReviewMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/review/ReviewRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/review/ReviewResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/user/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/user/UserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/user/UserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/repositories/AutorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/repositories/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/repositories/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/repositories/EditorialRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/repositories/LikeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/repositories/PrivilegeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/repositories/ReviewRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/repositories/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/services/BasicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/services/autor/AutorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/services/book/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/services/category/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/services/editorial/EditorialService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/services/like/LikeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/services/permissions/privileges/PrivilegeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/services/permissions/role/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/services/review/ReviewService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/services/user/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/upload/FileSystemStorageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/upload/StorageException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/upload/StorageFileNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/upload/StorageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/util/validation/SimpleValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/util/validation/ValidId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/util/validation/ValidIdValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/configuracion.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/private.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-Application-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-Application-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/configuracion.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/Backend.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/AuthMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/AuthMapperImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/AuthenticationManagerProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/JwtAuthConfig$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/JwtAuthConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/JwtAuthController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/JwtToken.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/JwtTokenUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/JwtUserDetailService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/requests/AuthLoginRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/requests/AuthRegisterUserRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/requests/AuthUserResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/response/AuthResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/configs/ConfiguracionServidor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/configs/SwaggerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/controllers/BasicJpaRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/controllers/api/book/BookController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/controllers/api/category/CategoryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/controllers/api/review/ReviewController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/controllers/impl/book/BookControllerImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/controllers/impl/category/CategoryControllerImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/controllers/impl/review/ReviewControllerImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/FilterCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/FilterMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/FilterRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/RepositoryFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/SpecificationBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/autor/AutorFilter$AutorFilterBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/autor/AutorFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/book/BookFilter$BookFilterBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/book/BookFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/category/CategoryFilter$CategoryFilterBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/category/CategoryFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/editorial/EditorialFilter$EditorialFilterBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/editorial/EditorialFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/permissions/privilege/PrivilegeFilter$PrivilegeFilterBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/permissions/privilege/PrivilegeFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/permissions/role/RolePrivilege.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/review/ReviewFilter$ReviewFilterBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/review/ReviewFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/user/UserFilter$UserFilterBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/user/UserFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/autor/Autor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/autor/AutorMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/autor/AutorMapperImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/autor/AutorRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/autor/AutorResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/autor/Autor_.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/BookMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/BookMapperImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/BookRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/BookResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/Book_.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/serie/BookSerie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/serie/BookSerieMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/serie/BookSerieMapperImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/serie/BookSerieRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/serie/BookSerieResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/serie/BookSerie_.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/type/BookType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/category/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/category/CategoryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/category/CategoryMapperImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/category/CategoryRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/category/CategoryResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/category/Category_.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/editorial/Editorial.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/editorial/EditorialMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/editorial/EditorialMapperImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/editorial/EditorialRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/editorial/EditorialResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/editorial/Editorial_.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/likes/Like.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/likes/LikeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/likes/LikeMapperImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/likes/LikeResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/likes/Like_.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/page/PageResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/page/PageableMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/page/PageableMapperImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/page/request/OrderRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/page/request/PageableRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/page/request/SortRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/page/response/OrderResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/page/response/PageableResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/page/response/SortResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/permissions/privilege/Privilege.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/permissions/privilege/PrivilegeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/permissions/privilege/PrivilegeMapperImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/permissions/privilege/PrivilegeResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/permissions/privilege/Privilege_.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/permissions/role/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/permissions/role/RoleMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/permissions/role/RoleMapperImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/permissions/role/RoleResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/permissions/role/Role_.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/review/Review.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/review/ReviewMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/review/ReviewMapperImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/review/ReviewRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/review/ReviewResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/review/Review_.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/user/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/user/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/user/UserMapperImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/user/UserRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/user/UserResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/user/User_.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/repositories/AutorRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/repositories/BookRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/repositories/CategoryRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/repositories/EditorialRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/repositories/LikeRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/repositories/PrivilegeRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/repositories/ReviewRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/repositories/RoleRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/repositories/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/services/BasicService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/services/autor/AutorService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/services/book/BookService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/services/category/CategoryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/services/editorial/EditorialService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/services/like/LikeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/services/permissions/privileges/PrivilegeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/services/permissions/role/RoleService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/services/review/ReviewService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/services/user/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/upload/FileSystemStorageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/upload/StorageException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/upload/StorageFileNotFoundException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/upload/StorageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/util/validation/SimpleValidator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/util/validation/ValidId.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/util/validation/ValidIdValidator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/private.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/public.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/auth/AuthMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/autor/AutorMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/autor/Autor_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/book/BookMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/book/Book_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/book/serie/BookSerieMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/book/serie/BookSerie_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/category/CategoryMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/category/Category_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/editorial/EditorialMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/editorial/Editorial_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/likes/LikeMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/likes/Like_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/page/PageableMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/permissions/privilege/PrivilegeMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/permissions/privilege/Privilege_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/permissions/role/RoleMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/permissions/role/Role_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/review/ReviewMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/review/Review_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/user/UserMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/user/User_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/demasiado_perfecto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/el_billonario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/final/2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/final/5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/final/6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/final/demasiado_perfecto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/final/el_billonario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/final/la_hipotesis_del_amor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/final/la_manguera_que_nos_uni.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/final/mi_propio_turco_de_telenovela.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/final/mi_vida_k-drama.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/final/te_esperae_todas_las_noches.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/final/uW1p0u3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/final/un_error_maravilloso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/final/veinte_motivos_para_olvidarte_del_amor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/la_hipótesis_del_amor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/la_manguera_que_nos_unió.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/mi_propio_turco_de_telenovela.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/mi_vida_k-drama.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/output/demasiado_perfecto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/output/el_billonario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/output/la_hipótesis_del_amor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/output/la_manguera_que_nos_unió.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/output/mi_propio_turco_de_telenovela.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/output/mi_vida_k-drama.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/output/te_esperaré_todas_las_noches.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/output/un_error_maravilloso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/output/veinte_motivos_para_olvidarte_del_amor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/resize/uW1p0u3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/te_esperaré_todas_las_noches.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/un_error_maravilloso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libros/veinte_motivos_para_olvidarte_del_amor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews - copia/demasiado_perfecto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews - copia/el_billonario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews - copia/la_hipótesis_del_amor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews - copia/la_manguera_que_nos_unió.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews - copia/linea_erotica.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews - copia/mi_propio_turco_de_telenovela.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews - copia/mi_vida_k-drama.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews - copia/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews - copia/output/demasiado_perfecto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews - copia/output/el_billonario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews - copia/output/la_hipótesis_del_amor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews - copia/output/la_manguera_que_nos_unió.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews - copia/output/linea_erotica.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews - copia/output/mi_propio_turco_de_telenovela.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews - copia/output/mi_vida_k-drama.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews - copia/output/te_esperaré_todas_las_noches.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews - copia/output/un_error_maravilloso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews - copia/output/veinte_motivos_para_olvidarte_del_amor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews - copia/te_esperaré_todas_las_noches.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews - copia/un_error_maravilloso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews - copia/veinte_motivos_para_olvidarte_del_amor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/demasiado_perfecto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/el_billonario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/final/demasiado_perfecto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/final/el_billonario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/final/la_hiptesis_del_amor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/final/la_manguera_que_nos_uni.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/final/lnea_ertica_dgame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/final/mi_propio_turco_de_telenovela.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/final/mi_vida_k-drama.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/final/te_esperar_todas_las_noches.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/final/un_error_maravilloso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/final/veinte_motivos_para_olvidarte_del_amor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/l_nea_er_tica___d_game_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/la_hip_tesis_del_amor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/la_manguera_que_nos_uni_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/mi_propio_turco_de_telenovela.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/mi_vida_k_drama.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/output/demasiado_perfecto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/output/el_billonario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/output/l_nea_er_tica___d_game_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/output/la_hip_tesis_del_amor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/output/la_manguera_que_nos_uni_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/output/mi_propio_turco_de_telenovela.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/output/mi_vida_k_drama.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/output/te_esperar__todas_las_noches.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/output/un_error_maravilloso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/output/veinte_motivos_para_olvidarte_del_amor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/te_esperar__todas_las_noches.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/un_error_maravilloso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews/veinte_motivos_para_olvidarte_del_amor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/controllers/api/autor/AutorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/controllers/api/editorial/EditorialController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/controllers/impl/autor/AutorControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/controllers/impl/editorial/EditorialControllerImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/image/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/image/ImageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/image/ImageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/upload/ImageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/upload/ImageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/upload/ImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/upload/ImageStorageException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/upload/ImageUploadResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/upload/ImageUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/util/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/image/ImageMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/image/Image_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/17" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/22" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/23" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/24" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/27" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/28" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/29" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/30" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload-dir/9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/Backend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/Backend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/auth/AuthMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/auth/AuthMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/auth/JwtAuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/auth/JwtAuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/auth/requests/AuthRegisterUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/auth/requests/AuthRegisterUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/auth/requests/AuthUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/auth/requests/AuthUserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/controllers/api/book/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/controllers/api/book/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/controllers/api/category/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/controllers/api/category/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/controllers/api/review/ReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/controllers/api/review/ReviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/filter/autor/AutorFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/filter/autor/AutorFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/filter/permissions/role/RolePrivilege.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/filter/permissions/role/RolePrivilege.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/autor/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/autor/Autor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/autor/AutorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/autor/AutorMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/autor/AutorRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/autor/AutorRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/book/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/book/BookMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/book/BookResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/book/BookResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/book/serie/BookSerie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/book/serie/BookSerie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/category/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/category/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/editorial/Editorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/editorial/Editorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/editorial/EditorialMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/editorial/EditorialMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/editorial/EditorialRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/editorial/EditorialRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/review/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/review/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/review/ReviewMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/review/ReviewMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/review/ReviewRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/review/ReviewRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/review/ReviewResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/review/ReviewResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/user/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/user/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/user/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/models/user/UserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/services/permissions/privileges/PrivilegeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/services/permissions/privileges/PrivilegeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/services/permissions/role/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matamor/backend/services/permissions/role/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/upload/FileSystemStorageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/upload/StorageException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/upload/StorageFileNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matamor/backend/upload/StorageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Books-Application-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Books-Application-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Books-Application-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/Books-Application-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/Backend.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/Backend.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/AuthMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/AuthMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/AuthMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/AuthMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/JwtAuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/JwtAuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/requests/AuthRegisterUserRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/requests/AuthRegisterUserRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/requests/AuthUserResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/auth/requests/AuthUserResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/controllers/api/book/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/controllers/api/book/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/controllers/api/category/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/controllers/api/category/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/controllers/api/review/ReviewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/controllers/api/review/ReviewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/autor/AutorFilter$AutorFilterBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/autor/AutorFilter$AutorFilterBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/autor/AutorFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/autor/AutorFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/permissions/role/RolePrivilege.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/filter/permissions/role/RolePrivilege.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/autor/Autor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/autor/Autor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/autor/AutorMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/autor/AutorMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/autor/AutorMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/autor/AutorMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/autor/AutorRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/autor/AutorRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/BookMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/BookMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/BookMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/BookMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/BookResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/BookResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/Book_.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/Book_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/serie/BookSerie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/book/serie/BookSerie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/category/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/category/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/editorial/Editorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/editorial/Editorial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/editorial/EditorialMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/editorial/EditorialMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/editorial/EditorialMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/editorial/EditorialMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/editorial/EditorialRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/editorial/EditorialRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/review/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/review/Review.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/review/ReviewMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/review/ReviewMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/review/ReviewMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/review/ReviewMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/review/ReviewRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/review/ReviewRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/review/ReviewResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/review/ReviewResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/review/Review_.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/review/Review_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/user/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/user/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/user/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/user/UserMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/user/UserMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/user/UserResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/user/UserResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/user/User_.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/models/user/User_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/services/permissions/privileges/PrivilegeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/services/permissions/privileges/PrivilegeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/services/permissions/role/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matamor/backend/services/permissions/role/RoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/upload/FileSystemStorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/upload/StorageException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/upload/StorageFileNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matamor/backend/upload/StorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/auth/AuthMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/auth/AuthMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/autor/AutorMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/autor/AutorMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/book/BookMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/book/BookMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/book/Book_.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/book/Book_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/book/serie/BookSerieMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/book/serie/BookSerieMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/category/CategoryMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/category/CategoryMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/editorial/EditorialMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/editorial/EditorialMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/likes/LikeMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/likes/LikeMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/page/PageableMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/page/PageableMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/permissions/privilege/PrivilegeMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/permissions/privilege/PrivilegeMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/permissions/role/RoleMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/permissions/role/RoleMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/review/ReviewMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/review/ReviewMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/review/Review_.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/review/Review_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/user/UserMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/user/UserMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/user/User_.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/matamor/backend/models/user/User_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -481,21 +292,27 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28hcBf62l5Nc9F11ehtJ6Ra49hI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="corretto-15" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Frontend" />
+    <property name="last.edited.regexp" value="Sample Text" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/upload-dir" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.5" />
@@ -503,16 +320,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Santiago\IdeaProjects\Libros\src\main\resources" />
-      <recent name="C:\Users\Santiago\IdeaProjects\Libros\src\main\java\me\matamor\books\controllers\impl" />
-      <recent name="C:\Users\Santiago\IdeaProjects\Libros\Application\src" />
-      <recent name="C:\Users\Santiago\IdeaProjects\Libros\src\main\java\me\matamor\libros\libros" />
-      <recent name="C:\Users\Santiago\IdeaProjects\Libros\src\main\java\me\matamor\libros\libros\" />
+      <recent name="C:\Users\Santiago\IdeaProjects\BookReview\Backend\upload-dir" />
+      <recent name="C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\upload" />
+      <recent name="C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\upload\repository" />
+      <recent name="C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\upload\util" />
+      <recent name="C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\upload\controller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Santiago\IdeaProjects\Libros" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="me.matamor.backend.util" />
+      <recent name="me.matamor.backend.upload" />
       <recent name="me.matamor.libros" />
       <recent name="me.matamor.libros.auth" />
     </key>
@@ -603,7 +422,12 @@
       <workItem from="1653136205997" duration="8619000" />
       <workItem from="1653171175826" duration="676000" />
       <workItem from="1653171872612" duration="446000" />
-      <workItem from="1653172332955" duration="1066000" />
+      <workItem from="1653172332955" duration="1851000" />
+      <workItem from="1653211544531" duration="1850000" />
+      <workItem from="1653256820502" duration="615000" />
+      <workItem from="1653289558091" duration="13048000" />
+      <workItem from="1653379370586" duration="7880000" />
+      <workItem from="1653462868224" duration="7870000" />
     </task>
     <task id="LOCAL-00001" summary="Backend">
       <created>1653171282860</created>
@@ -612,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653171282860</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Backend">
+      <created>1653173593654</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653173593654</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,6 +465,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
@@ -643,19 +475,21 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint type="java-method">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.6.3/spring-security-core-5.6.3.jar!/org/springframework/security/authentication/AuthenticationManager.class</url>
-          <line>11</line>
-          <properties class="org.springframework.security.authentication.AuthenticationManager" method="authenticate">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <breakpoint type="java-exception">
-          <properties class="java.lang.StackOverflowError" package="java.lang" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/me/matamor/backend/controllers/impl/editorial/EditorialControllerImp.java</url>
+          <line>68</line>
           <option name="timeStamp" value="9" />
-        </breakpoint>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/me/matamor/backend/controllers/impl/editorial/EditorialControllerImp.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/me/matamor/backend/util/validation/SimpleValidator.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>

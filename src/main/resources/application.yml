@@ -9,16 +9,17 @@ spring:
     driver-class-name: org.mariadb.jdbc.Driver
     username: admin
     password: 1234
-  h2:
-    console:
-      enabled: true
   jpa:
     show-sql: true
-    generate-ddl: true
+    generate-ddl: false
     hibernate:
-      ddl-auto: create-drop
-
-logging:
+      ddl-auto: none
+  servlet:
+    multipart:
+      max-file-size: 5MB
+  sql:
+    init:
+      mode: always
   level:
     root: INFO
     org.springframework.web: INFO

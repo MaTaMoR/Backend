@@ -5,6 +5,7 @@ import me.matamor.backend.models.autor.AutorResponse;
 import me.matamor.backend.models.book.type.BookType;
 import me.matamor.backend.models.category.CategoryResponse;
 import me.matamor.backend.models.editorial.EditorialResponse;
+import me.matamor.backend.models.image.Image;
 
 import java.util.Date;
 import java.util.List;
@@ -22,7 +23,7 @@ public class BookResponse {
     private BookType bookType;
     private Date publishedDate;
     private Integer totalPages;
-    private String image;
+    private Image image;
 
     private AutorResponse autor;
     private EditorialResponse editorial;

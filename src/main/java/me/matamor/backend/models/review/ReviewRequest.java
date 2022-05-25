@@ -20,7 +20,7 @@ public class ReviewRequest {
     @ValidId
     private String id;
 
-    private UserRequest user;
+    private UserRequest autor;
 
     private BookRequest book;
 

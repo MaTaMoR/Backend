@@ -20,7 +20,7 @@ public interface ReviewController {
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Review found"),
             @ApiResponse(responseCode = "404", description = "Review not found")})
-    ResponseEntity<ReviewResponse> find(@RequestParam("id") Long id);
+    ResponseEntity<ReviewResponse> find(@PathVariable("id") Long id);
 
     @PostMapping("/search/filter")
     @Operation(summary = "Get reviews using a filter")

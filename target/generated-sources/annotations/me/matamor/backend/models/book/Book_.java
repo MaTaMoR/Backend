@@ -9,6 +9,7 @@ import me.matamor.backend.models.autor.Autor;
 import me.matamor.backend.models.book.type.BookType;
 import me.matamor.backend.models.category.Category;
 import me.matamor.backend.models.editorial.Editorial;
+import me.matamor.backend.models.image.Image;
 import me.matamor.backend.models.likes.Like;
 
 @Generated(value = "org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor")
@@ -16,7 +17,7 @@ import me.matamor.backend.models.likes.Like;
 public abstract class Book_ {
 
 	public static volatile SingularAttribute<Book, Editorial> editorial;
-	public static volatile SingularAttribute<Book, String> image;
+	public static volatile SingularAttribute<Book, Image> image;
 	public static volatile SingularAttribute<Book, Integer> totalPages;
 	public static volatile SingularAttribute<Book, String> description;
 	public static volatile SingularAttribute<Book, Long> id;

@@ -20,7 +20,7 @@ public interface CategoryController {
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Category found"),
             @ApiResponse(responseCode = "404", description = "Category not found")})
-    ResponseEntity<CategoryResponse> find(@RequestParam("id") Long id);
+    ResponseEntity<CategoryResponse> find(@PathVariable("id") Long id);
 
     @PostMapping("/search/filter")
     @Operation(summary = "Get categories using a filter")

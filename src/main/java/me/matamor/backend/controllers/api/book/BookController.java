@@ -20,7 +20,7 @@ public interface BookController {
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Book found"),
             @ApiResponse(responseCode = "404", description = "Book not found")})
-    ResponseEntity<BookResponse> find(@RequestParam("id") Long id);
+    ResponseEntity<BookResponse> find(@PathVariable("id") Long id);
 
     @PostMapping("/search/filter")
     @Operation(summary = "Get books using a filter")

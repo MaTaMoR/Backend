@@ -14,7 +14,7 @@ public class RolePrivilege implements RepositoryFilter<Role> {
     private String name;
 
     @Builder.Default
-    private FilterCriteria nameCriteria = FilterCriteria.EQUAL;
+    private final FilterCriteria nameCriteria = FilterCriteria.EQUAL;
 
     @Override
     public Specification<Role> getSpecifications() {

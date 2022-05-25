@@ -15,8 +15,7 @@ public class EditorialRequest {
 
     @ValidId
     private String id;
-
-    @Size(min = 3, max = 64)
+    @Size(min = 1, max = 64)
     private String name;
 
     private final FilterCriteria nameCriteria = FilterCriteria.EQUAL;

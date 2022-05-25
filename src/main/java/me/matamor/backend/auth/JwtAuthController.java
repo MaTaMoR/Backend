@@ -6,7 +6,9 @@ import me.matamor.backend.auth.requests.AuthRegisterUserRequest;
 import me.matamor.backend.auth.requests.AuthUserResponse;
 import me.matamor.backend.auth.response.AuthResponse;
 import me.matamor.backend.models.user.User;
+import me.matamor.backend.services.permissions.role.RoleService;
 import me.matamor.backend.services.user.UserService;
+import me.matamor.backend.util.Constants;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -24,6 +26,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
+import java.util.List;
 
 @RestController
 @RequestMapping("/auth")
@@ -34,6 +37,7 @@ public class JwtAuthController {
     private final UserService userService;
     private final AuthMapper authMapper;
     private final AuthenticationManagerProvider authenticationManagerProvider;
+    private final RoleService roleService;
 
     @PostMapping("/login")
     public ResponseEntity<AuthResponse> login(HttpServletRequest httpServlet, @RequestBody @Valid AuthLoginRequest request) {
@@ -52,12 +56,20 @@ public class JwtAuthController {
     public ResponseEntity<AuthResponse> register(HttpServletRequest httpServlet, @RequestBody @Valid AuthRegisterUserRequest request) {
         User user = this.userService.findByUsernameOrEmail(request.getUsername(), request.getEmail());
         if (user == null) {
-            user = this.userService.register(this.authMapper.toEntity(request));
+            user = this.authMapper.toEntity(request);
+            user.setRoles(List.of(this.roleService.getOrCreate(Constants.USER)));
 
-            Authentication authentication = authenticate(httpServlet, user.getUsername(), user.getPassword());
-            String token = this.tokenUtil.generateToken(authentication);
+            this.userService.register(user);
 
-            return ResponseEntity.ok(new AuthResponse(token));
+            try {
+                Authentication authentication = authenticate(httpServlet, request.getUsername(), request.getPassword());
+                String token = this.tokenUtil.generateToken(authentication);
+
+                return ResponseEntity.ok(new AuthResponse(token));
+            } catch (AuthenticationException e) {
+                e.printStackTrace();
+                return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+            }
         } else {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
         }

@@ -16,13 +16,17 @@ public class AutorRequest {
     @ValidId
     private String id;
 
-    @Size(min = 3, max = 64)
+    @Size(min = 1, max = 64)
     private String name;
 
-    @Size(min = 3, max = 64)
+    @Size(min = 1, max = 64)
     private String surnames;
+
+    @Size(min = 1, max = 128)
+    private String fullName;
 
     private FilterCriteria nameCriteria = FilterCriteria.EQUAL;
     private FilterCriteria surnamesCriteria = FilterCriteria.EQUAL;
+    private FilterCriteria fullNameCriteria = FilterCriteria.EQUAL;
 
 }

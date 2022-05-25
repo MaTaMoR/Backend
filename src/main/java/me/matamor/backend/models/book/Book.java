@@ -5,6 +5,7 @@ import me.matamor.backend.models.autor.Autor;
 import me.matamor.backend.models.book.type.BookType;
 import me.matamor.backend.models.category.Category;
 import me.matamor.backend.models.editorial.Editorial;
+import me.matamor.backend.models.image.Image;
 import me.matamor.backend.models.likes.Like;
 
 import javax.persistence.*;
@@ -26,7 +27,7 @@ import java.util.List;
 public class Book {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @ToString.Include
     @EqualsAndHashCode.Include
     private long id;
@@ -59,10 +60,10 @@ public class Book {
     @Column(name = "total_pages")
     private int totalPages;
 
-    @NotBlank
+    @NotNull
     @ToString.Include
-    @Column(name = "image")
-    private String image;
+    @ManyToOne
+    private Image image;
 
     @NotNull
     @ManyToOne
@@ -80,7 +81,7 @@ public class Book {
     @OneToMany
     private List<Like> likes;
 
-    public Book(String title, String description, BookType bookType, Date publishedDate, int totalPages, String image, Autor autor, Editorial editorial, List<Category> categories) {
+    public Book(String title, String description, BookType bookType, Date publishedDate, int totalPages, Image image, Autor autor, Editorial editorial, List<Category> categories) {
         this.title = title;
         this.description = description;
         this.bookType = bookType;

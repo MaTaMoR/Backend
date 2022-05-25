@@ -17,7 +17,7 @@ import javax.validation.constraints.Size;
 public class Autor {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
     private long id;
 

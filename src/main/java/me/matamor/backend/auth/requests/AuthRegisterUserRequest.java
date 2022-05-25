@@ -19,11 +19,11 @@ public class AuthRegisterUserRequest {
 
     @NotBlank
     @Size(min = 3, max = 16)
-    private String nombre;
+    private String name;
 
     @NotBlank
     @Size(min = 3, max = 32)
-    private String apellidos;
+    private String surnames;
 
     @NotBlank
     @Email

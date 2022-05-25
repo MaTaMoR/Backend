@@ -8,6 +8,8 @@ import me.matamor.backend.models.autor.Autor;
 import me.matamor.backend.models.autor.Autor_;
 import org.springframework.data.jpa.domain.Specification;
 
+import javax.persistence.criteria.Expression;
+
 @Getter
 @Setter
 @Builder
@@ -18,6 +20,7 @@ public class AutorFilter implements RepositoryFilter<Autor> {
     private Long id;
     private String name;
     private String surnames;
+    private String fullName;
 
     @Builder.Default
     private FilterCriteria nameCriteria = FilterCriteria.EQUAL;
@@ -25,12 +28,16 @@ public class AutorFilter implements RepositoryFilter<Autor> {
     @Builder.Default
     private FilterCriteria surnamesCriteria = FilterCriteria.EQUAL;
 
+    @Builder.Default
+    private FilterCriteria fullNameCriteria = FilterCriteria.EQUAL;
+
     @Override
     public Specification<Autor> getSpecifications() {
         return new SpecificationBuilder<Autor>()
                 .add(getIdSpecification())
                 .add(getNameSpecification())
                 .add(getSurnamesSpecification())
+                .add(getFullNameSpecification())
                 .build();
     }
 
@@ -70,6 +77,28 @@ public class AutorFilter implements RepositoryFilter<Autor> {
                 return criteriaBuilder.like(root.get(Autor_.surnames), like(this.surnames));
             } else {
                 throw new IllegalArgumentException("Criteria for the attribute 'description' is not valid: " + this.surnamesCriteria);
+            }
+        });
+    }
+
+    private Specification<Autor> getFullNameSpecification() {
+        if (this.fullName == null || this.fullName.isEmpty()) {
+            return null;
+        }
+
+        return ((root, query, criteriaBuilder) -> {
+            if (FilterCriteria.EQUAL.equals(this.fullNameCriteria)) {
+                Expression<String> fullName  = criteriaBuilder.concat(root.get(Autor_.name), " ");
+                fullName = criteriaBuilder.concat(fullName, root.get(Autor_.surnames));
+
+                return criteriaBuilder.equal(fullName, this.fullName);
+            } else if (FilterCriteria.LIKE.equals(this.fullNameCriteria)) {
+                Expression<String> fullName  = criteriaBuilder.concat(root.get(Autor_.name), " ");
+                fullName = criteriaBuilder.concat(fullName, root.get(Autor_.surnames));
+
+                return criteriaBuilder.like(fullName, this.fullName);
+            } else {
+                throw new IllegalArgumentException("Criteria for the attribute 'fullName' is not valid: " + this.fullNameCriteria);
             }
         });
     }

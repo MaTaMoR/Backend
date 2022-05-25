@@ -2,6 +2,7 @@ package me.matamor.backend.models.review;
 
 import lombok.*;
 import me.matamor.backend.models.book.Book;
+import me.matamor.backend.models.image.Image;
 import me.matamor.backend.models.likes.Like;
 import me.matamor.backend.models.user.User;
 import org.hibernate.validator.constraints.Range;
@@ -26,7 +27,7 @@ import java.util.List;
 public class Review {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @ToString.Include
     @EqualsAndHashCode.Include
     private long id;
@@ -43,9 +44,9 @@ public class Review {
     @Column(name = "review", length = 10000)
     private String review;
 
-    @NotBlank
-    @Column(name = "image")
-    private String image;
+    @NotNull
+    @ManyToOne
+    private Image image;
 
     @Range(min = 1, max = 5)
     @Column(name = "score")
@@ -59,7 +60,7 @@ public class Review {
     @OneToMany
     private List<Like> likes;
 
-    public Review(User autor, Book book, String review, String image, int score) {
+    public Review(User autor, Book book, String review, Image image, int score) {
         this.autor = autor;
         this.book = book;
         this.review = review;
