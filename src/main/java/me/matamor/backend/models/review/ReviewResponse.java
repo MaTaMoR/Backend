@@ -4,8 +4,11 @@ import lombok.*;
 import me.matamor.backend.auth.requests.AuthUserResponse;
 import me.matamor.backend.models.book.BookResponse;
 import me.matamor.backend.models.image.ImageResponse;
+import me.matamor.backend.models.likes.Like;
+import me.matamor.backend.util.validation.ValidId;
 
 import java.util.Date;
+import java.util.List;
 
 @Getter
 @Setter
@@ -14,6 +17,7 @@ import java.util.Date;
 @AllArgsConstructor
 public class ReviewResponse {
 
+    @ValidId
     private String id;
     private AuthUserResponse autor;
     private BookResponse book;
@@ -21,5 +25,7 @@ public class ReviewResponse {
     private ImageResponse image;
     private int score;
     private Date reviewDate;
+
+    private List<Like> likes;
 
 }

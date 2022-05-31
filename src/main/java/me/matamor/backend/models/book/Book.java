@@ -30,7 +30,7 @@ public class Book {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @ToString.Include
     @EqualsAndHashCode.Include
-    private long id;
+    private Long id;
 
     @NotBlank
     @ToString.Include

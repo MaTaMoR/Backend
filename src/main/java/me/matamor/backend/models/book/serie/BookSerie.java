@@ -18,7 +18,7 @@ public class BookSerie {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
-    private long id;
+    private Long id;
 
     @NotBlank
     @Size(min = 3, max = 128)

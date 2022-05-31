@@ -35,6 +35,7 @@ C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backe
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\services\autor\AutorService.java
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\filter\book\BookFilter.java
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\models\image\ImageMapper.java
+C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\controllers\impl\admin\AdminControllerImpl.java
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\configs\SwaggerConfig.java
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\upload\ImageRepository.java
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\models\permissions\privilege\PrivilegeMapper.java
@@ -60,6 +61,7 @@ C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backe
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\models\book\type\BookType.java
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\filter\RepositoryFilter.java
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\models\likes\LikeMapper.java
+C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\controllers\api\admin\AdminController.java
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\auth\response\AuthResponse.java
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\controllers\api\category\CategoryController.java
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\controllers\impl\review\ReviewControllerImpl.java
@@ -67,6 +69,7 @@ C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backe
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\models\book\Book.java
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\util\validation\ValidId.java
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\services\editorial\EditorialService.java
+C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\dto\DTOConfig.java
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\models\autor\Autor.java
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\repositories\LikeRepository.java
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\filter\autor\AutorFilter.java
@@ -88,6 +91,8 @@ C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backe
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\auth\AuthenticationManagerProvider.java
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\filter\FilterMapper.java
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\auth\requests\AuthRegisterUserRequest.java
+C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\dto\DTO.java
+C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\dto\DTOModelMapper.java
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\upload\ImageService.java
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\repositories\UserRepository.java
 C:\Users\Santiago\IdeaProjects\BookReview\Backend\src\main\java\me\matamor\backend\util\validation\SimpleValidator.java

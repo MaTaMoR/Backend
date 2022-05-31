@@ -13,6 +13,7 @@ import java.util.List;
 @AllArgsConstructor
 public class AuthUserResponse {
 
+    private String id;
     private String username;
     private String name;
     private String surnames;

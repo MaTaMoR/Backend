@@ -30,7 +30,7 @@ public class Review {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @ToString.Include
     @EqualsAndHashCode.Include
-    private long id;
+    private Long id;
 
     @NotNull
     @ManyToOne

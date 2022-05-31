@@ -5,18 +5,25 @@ import java.util.List;
 import javax.annotation.processing.Generated;
 import me.matamor.backend.filter.book.BookFilter;
 import me.matamor.backend.filter.category.CategoryFilter;
+import me.matamor.backend.models.autor.Autor;
 import me.matamor.backend.models.autor.AutorMapper;
+import me.matamor.backend.models.autor.AutorResponse;
 import me.matamor.backend.models.category.Category;
 import me.matamor.backend.models.category.CategoryMapper;
 import me.matamor.backend.models.category.CategoryRequest;
 import me.matamor.backend.models.category.CategoryResponse;
+import me.matamor.backend.models.editorial.Editorial;
 import me.matamor.backend.models.editorial.EditorialMapper;
+import me.matamor.backend.models.editorial.EditorialResponse;
+import me.matamor.backend.models.likes.Like;
+import me.matamor.backend.models.likes.LikeMapper;
+import me.matamor.backend.models.likes.LikeResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-05-25T22:19:53+0200",
+    date = "2022-05-31T14:14:28+0200",
     comments = "version: 1.5.0.RC1, compiler: javac, environment: Java 15.0.2 (Amazon.com Inc.)"
 )
 @Component
@@ -25,13 +32,15 @@ public class BookMapperImpl implements BookMapper {
     private final AutorMapper autorMapper;
     private final EditorialMapper editorialMapper;
     private final CategoryMapper categoryMapper;
+    private final LikeMapper likeMapper;
 
     @Autowired
-    public BookMapperImpl(AutorMapper autorMapper, EditorialMapper editorialMapper, CategoryMapper categoryMapper) {
+    public BookMapperImpl(AutorMapper autorMapper, EditorialMapper editorialMapper, CategoryMapper categoryMapper, LikeMapper likeMapper) {
 
         this.autorMapper = autorMapper;
         this.editorialMapper = editorialMapper;
         this.categoryMapper = categoryMapper;
+        this.likeMapper = likeMapper;
     }
 
     @Override
@@ -55,6 +64,33 @@ public class BookMapperImpl implements BookMapper {
         book.setAutor( autorMapper.toEntity( request.getAutor() ) );
         book.setEditorial( editorialMapper.toEntity( request.getEditorial() ) );
         book.setCategories( categoryRequestListToCategoryList( request.getCategories() ) );
+
+        return book;
+    }
+
+    @Override
+    public Book toEntity(BookResponse response) {
+        if ( response == null ) {
+            return null;
+        }
+
+        Book book = new Book();
+
+        if ( response.getId() != null ) {
+            book.setId( Long.parseLong( response.getId() ) );
+        }
+        book.setTitle( response.getTitle() );
+        book.setDescription( response.getDescription() );
+        book.setBookType( response.getBookType() );
+        book.setPublishedDate( response.getPublishedDate() );
+        if ( response.getTotalPages() != null ) {
+            book.setTotalPages( response.getTotalPages() );
+        }
+        book.setImage( response.getImage() );
+        book.setAutor( autorResponseToAutor( response.getAutor() ) );
+        book.setEditorial( editorialResponseToEditorial( response.getEditorial() ) );
+        book.setCategories( categoryResponseListToCategoryList( response.getCategories() ) );
+        book.setLikes( likeResponseListToLikeList( response.getLikes() ) );
 
         return book;
     }
@@ -95,7 +131,9 @@ public class BookMapperImpl implements BookMapper {
 
         BookResponse bookResponse = new BookResponse();
 
-        bookResponse.setId( String.valueOf( book.getId() ) );
+        if ( book.getId() != null ) {
+            bookResponse.setId( String.valueOf( book.getId() ) );
+        }
         bookResponse.setTitle( book.getTitle() );
         bookResponse.setDescription( book.getDescription() );
         bookResponse.setBookType( book.getBookType() );
@@ -105,6 +143,7 @@ public class BookMapperImpl implements BookMapper {
         bookResponse.setAutor( autorMapper.toResponse( book.getAutor() ) );
         bookResponse.setEditorial( editorialMapper.toResponse( book.getEditorial() ) );
         bookResponse.setCategories( categoryListToCategoryResponseList( book.getCategories() ) );
+        bookResponse.setLikes( likeListToLikeResponseList( book.getLikes() ) );
 
         return bookResponse;
     }
@@ -117,6 +156,79 @@ public class BookMapperImpl implements BookMapper {
         List<Category> list1 = new ArrayList<Category>( list.size() );
         for ( CategoryRequest categoryRequest : list ) {
             list1.add( categoryMapper.toEntity( categoryRequest ) );
+        }
+
+        return list1;
+    }
+
+    protected Autor autorResponseToAutor(AutorResponse autorResponse) {
+        if ( autorResponse == null ) {
+            return null;
+        }
+
+        Autor autor = new Autor();
+
+        if ( autorResponse.getId() != null ) {
+            autor.setId( Long.parseLong( autorResponse.getId() ) );
+        }
+        autor.setName( autorResponse.getName() );
+        autor.setSurnames( autorResponse.getSurnames() );
+
+        return autor;
+    }
+
+    protected Editorial editorialResponseToEditorial(EditorialResponse editorialResponse) {
+        if ( editorialResponse == null ) {
+            return null;
+        }
+
+        Editorial editorial = new Editorial();
+
+        if ( editorialResponse.getId() != null ) {
+            editorial.setId( Long.parseLong( editorialResponse.getId() ) );
+        }
+        editorial.setName( editorialResponse.getName() );
+        editorial.setImage( editorialResponse.getImage() );
+
+        return editorial;
+    }
+
+    protected Category categoryResponseToCategory(CategoryResponse categoryResponse) {
+        if ( categoryResponse == null ) {
+            return null;
+        }
+
+        Category category = new Category();
+
+        if ( categoryResponse.getId() != null ) {
+            category.setId( Long.parseLong( categoryResponse.getId() ) );
+        }
+        category.setName( categoryResponse.getName() );
+
+        return category;
+    }
+
+    protected List<Category> categoryResponseListToCategoryList(List<CategoryResponse> list) {
+        if ( list == null ) {
+            return null;
+        }
+
+        List<Category> list1 = new ArrayList<Category>( list.size() );
+        for ( CategoryResponse categoryResponse : list ) {
+            list1.add( categoryResponseToCategory( categoryResponse ) );
+        }
+
+        return list1;
+    }
+
+    protected List<Like> likeResponseListToLikeList(List<LikeResponse> list) {
+        if ( list == null ) {
+            return null;
+        }
+
+        List<Like> list1 = new ArrayList<Like>( list.size() );
+        for ( LikeResponse likeResponse : list ) {
+            list1.add( likeMapper.toEntity( likeResponse ) );
         }
 
         return list1;
@@ -143,6 +255,19 @@ public class BookMapperImpl implements BookMapper {
         List<CategoryResponse> list1 = new ArrayList<CategoryResponse>( list.size() );
         for ( Category category : list ) {
             list1.add( categoryMapper.toResponse( category ) );
+        }
+
+        return list1;
+    }
+
+    protected List<LikeResponse> likeListToLikeResponseList(List<Like> list) {
+        if ( list == null ) {
+            return null;
+        }
+
+        List<LikeResponse> list1 = new ArrayList<LikeResponse>( list.size() );
+        for ( Like like : list ) {
+            list1.add( likeMapper.toResponse( like ) );
         }
 
         return list1;

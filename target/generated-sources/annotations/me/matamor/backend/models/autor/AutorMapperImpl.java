@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-05-25T22:19:53+0200",
+    date = "2022-05-31T14:14:27+0200",
     comments = "version: 1.5.0.RC1, compiler: javac, environment: Java 15.0.2 (Amazon.com Inc.)"
 )
 @Component
@@ -58,7 +58,9 @@ public class AutorMapperImpl implements AutorMapper {
 
         AutorResponse autorResponse = new AutorResponse();
 
-        autorResponse.setId( String.valueOf( autor.getId() ) );
+        if ( autor.getId() != null ) {
+            autorResponse.setId( String.valueOf( autor.getId() ) );
+        }
         autorResponse.setName( autor.getName() );
         autorResponse.setSurnames( autor.getSurnames() );
 

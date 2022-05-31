@@ -12,4 +12,6 @@ public interface LikeMapper {
 
     LikeResponse toResponse(Like entity);
 
+    Like toEntity(LikeResponse response);
+
 }

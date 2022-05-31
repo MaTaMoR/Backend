@@ -1,6 +1,8 @@
 package me.matamor.backend.models.editorial;
 
 import lombok.*;
+import me.matamor.backend.models.image.Image;
+import org.springframework.lang.Nullable;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
@@ -18,19 +20,18 @@ public class Editorial {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
-    private long id;
+    private Long id;
 
     @NotBlank
     @Size(min = 3, max = 64)
     @Column(name = "name")
     private String name;
 
-    @NotBlank
-    @Column(name = "image")
-    private String image;
+    @Nullable
+    @ManyToOne
+    private Image image;
 
-    public Editorial(String name, String image) {
+    public Editorial(String name) {
         this.name = name;
-        this.image = image;
     }
 }

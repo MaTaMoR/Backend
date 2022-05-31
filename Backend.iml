@@ -161,5 +161,6 @@
     <orderEntry type="library" name="Maven: org.webjars:swagger-ui:4.5.0" level="project" />
     <orderEntry type="library" name="Maven: io.github.classgraph:classgraph:4.8.138" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-test:5.3.19" level="project" />
+    <orderEntry type="library" name="Maven: org.modelmapper:modelmapper:3.1.0" level="project" />
   </component>
 </module>

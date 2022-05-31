@@ -3,6 +3,7 @@ me\matamor\backend\controllers\impl\book\BookControllerImpl.class
 me\matamor\backend\models\likes\Like.class
 me\matamor\backend\controllers\api\editorial\EditorialController.class
 me\matamor\backend\upload\ImageService.class
+me\matamor\backend\dto\DTOConfig.class
 me\matamor\backend\configs\SwaggerConfig.class
 me\matamor\backend\models\book\BookResponse.class
 me\matamor\backend\models\permissions\privilege\Privilege.class
@@ -43,6 +44,7 @@ me\matamor\backend\services\review\ReviewService.class
 me\matamor\backend\filter\user\UserFilter.class
 me\matamor\backend\models\likes\LikeResponse.class
 me\matamor\backend\models\permissions\role\RoleResponse.class
+me\matamor\backend\controllers\impl\admin\AdminControllerImpl.class
 me\matamor\backend\auth\requests\AuthRegisterUserRequest.class
 me\matamor\backend\controllers\api\book\BookController.class
 me\matamor\backend\controllers\impl\category\CategoryControllerImpl.class
@@ -76,6 +78,7 @@ me\matamor\backend\auth\JwtAuthConfig$1.class
 me\matamor\backend\models\autor\AutorResponse.class
 me\matamor\backend\models\category\CategoryRequest.class
 me\matamor\backend\auth\JwtUserDetailService.class
+me\matamor\backend\controllers\api\admin\AdminController.class
 me\matamor\backend\filter\book\BookFilter$BookFilterBuilder.class
 me\matamor\backend\models\user\UserRequest.class
 me\matamor\backend\models\book\serie\BookSerie.class
@@ -134,8 +137,10 @@ me\matamor\backend\models\book\BookMapperImpl.class
 me\matamor\backend\models\image\ImageMapperImpl.class
 me\matamor\backend\filter\FilterCriteria.class
 me\matamor\backend\models\editorial\EditorialMapper.class
+me\matamor\backend\dto\DTO.class
 me\matamor\backend\models\editorial\EditorialRequest.class
 me\matamor\backend\controllers\impl\autor\AutorControllerImpl.class
+me\matamor\backend\dto\DTOModelMapper.class
 me\matamor\backend\models\autor\AutorMapperImpl.class
 me\matamor\backend\filter\book\BookFilter.class
 me\matamor\backend\repositories\CategoryRepository.class

@@ -80,7 +80,6 @@ public class ImageService {
     public byte[] readImg(Image image) throws ImageStorageException {
         File file = getFile(image, false);
         try (FileInputStream inputStream = new FileInputStream(file)) {
-            System.out.println("Reading file: " + file);
             return ImageUtility.decompressImage(inputStream.readAllBytes());
         } catch (IOException e) {
             throw new ImageStorageException("Couldn't read img from file!");

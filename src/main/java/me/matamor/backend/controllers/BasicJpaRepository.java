@@ -7,12 +7,11 @@ import org.springframework.data.jpa.domain.Specification;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.repository.NoRepositoryBean;
-import org.springframework.data.repository.PagingAndSortingRepository;
 
 import java.util.List;
 
 @NoRepositoryBean
-public interface BasicJpaRepository<T, K> extends JpaRepository<T, K>, JpaSpecificationExecutor<T>, PagingAndSortingRepository<T, K> {
+public interface BasicJpaRepository<T, K> extends JpaRepository<T, K>, JpaSpecificationExecutor<T> {
 
     default T findOneByFilter(RepositoryFilter<T> filter) {
         return findOne(filter.getSpecifications()).orElse(null);

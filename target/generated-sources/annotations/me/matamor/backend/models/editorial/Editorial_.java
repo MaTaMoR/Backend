@@ -3,12 +3,13 @@ package me.matamor.backend.models.editorial;
 import javax.annotation.Generated;
 import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
+import me.matamor.backend.models.image.Image;
 
 @Generated(value = "org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor")
 @StaticMetamodel(Editorial.class)
 public abstract class Editorial_ {
 
-	public static volatile SingularAttribute<Editorial, String> image;
+	public static volatile SingularAttribute<Editorial, Image> image;
 	public static volatile SingularAttribute<Editorial, String> name;
 	public static volatile SingularAttribute<Editorial, Long> id;
 

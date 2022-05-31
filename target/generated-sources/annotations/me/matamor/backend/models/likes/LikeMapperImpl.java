@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-05-25T22:19:53+0200",
+    date = "2022-05-31T14:14:28+0200",
     comments = "version: 1.5.0.RC1, compiler: javac, environment: Java 15.0.2 (Amazon.com Inc.)"
 )
 @Component
@@ -20,5 +20,16 @@ public class LikeMapperImpl implements LikeMapper {
         LikeResponse likeResponse = new LikeResponse();
 
         return likeResponse;
+    }
+
+    @Override
+    public Like toEntity(LikeResponse response) {
+        if ( response == null ) {
+            return null;
+        }
+
+        Like like = new Like();
+
+        return like;
     }
 }

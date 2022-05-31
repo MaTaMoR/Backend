@@ -28,7 +28,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @ToString.Include
     @EqualsAndHashCode.Include
-    private long id;
+    private Long id;
 
     @NotBlank
     @Size(min = 3, max = 16)

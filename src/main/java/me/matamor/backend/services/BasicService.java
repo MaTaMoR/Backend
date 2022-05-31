@@ -38,4 +38,8 @@ public interface BasicService<K, V extends BasicJpaRepository<K, Long>> {
     default void delete(K entity) {
         getRepository().delete(entity);
     }
+
+    default void delete(Long id) {
+        getRepository().deleteById(id);
+    }
 }
