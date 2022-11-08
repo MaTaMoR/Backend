@@ -2,11 +2,13 @@ package me.matamor.backend.auth;
 
 import me.matamor.backend.auth.requests.AuthRegisterUserRequest;
 import me.matamor.backend.auth.requests.AuthUserResponse;
+import me.matamor.backend.auth.requests.AuthUserUpdate;
 import me.matamor.backend.models.image.ImageMapper;
 import me.matamor.backend.models.permissions.role.RoleMapper;
 import me.matamor.backend.models.user.User;
 import org.mapstruct.InjectionStrategy;
 import org.mapstruct.Mapper;
+import org.mapstruct.MappingTarget;
 import org.mapstruct.NullValuePropertyMappingStrategy;
 
 @Mapper(
@@ -20,4 +22,5 @@ public interface AuthMapper {
 
     AuthUserResponse toResponse(User entity);
 
+    void setData(AuthUserUpdate userUpdate, @MappingTarget User user);
 }

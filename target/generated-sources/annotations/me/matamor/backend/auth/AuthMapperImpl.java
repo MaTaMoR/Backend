@@ -5,6 +5,7 @@ import java.util.List;
 import javax.annotation.processing.Generated;
 import me.matamor.backend.auth.requests.AuthRegisterUserRequest;
 import me.matamor.backend.auth.requests.AuthUserResponse;
+import me.matamor.backend.auth.requests.AuthUserUpdate;
 import me.matamor.backend.models.image.ImageMapper;
 import me.matamor.backend.models.permissions.role.Role;
 import me.matamor.backend.models.permissions.role.RoleMapper;
@@ -15,7 +16,7 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-05-31T14:14:27+0200",
+    date = "2022-06-01T12:36:50+0200",
     comments = "version: 1.5.0.RC1, compiler: javac, environment: Java 15.0.2 (Amazon.com Inc.)"
 )
 @Component
@@ -67,6 +68,35 @@ public class AuthMapperImpl implements AuthMapper {
         authUserResponse.setRoles( roleListToRoleResponseList( entity.getRoles() ) );
 
         return authUserResponse;
+    }
+
+    @Override
+    public void setData(AuthUserUpdate userUpdate, User user) {
+        if ( userUpdate == null ) {
+            return;
+        }
+
+        if ( userUpdate.getId() != null ) {
+            user.setId( userUpdate.getId() );
+        }
+        if ( userUpdate.getUsername() != null ) {
+            user.setUsername( userUpdate.getUsername() );
+        }
+        if ( userUpdate.getName() != null ) {
+            user.setName( userUpdate.getName() );
+        }
+        if ( userUpdate.getSurnames() != null ) {
+            user.setSurnames( userUpdate.getSurnames() );
+        }
+        if ( userUpdate.getEmail() != null ) {
+            user.setEmail( userUpdate.getEmail() );
+        }
+        if ( userUpdate.getPassword() != null ) {
+            user.setPassword( userUpdate.getPassword() );
+        }
+        if ( userUpdate.getImage() != null ) {
+            user.setImage( userUpdate.getImage() );
+        }
     }
 
     protected List<RoleResponse> roleListToRoleResponseList(List<Role> list) {

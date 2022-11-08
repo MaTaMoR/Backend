@@ -40,6 +40,9 @@ import java.security.interfaces.RSAPublicKey;
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class JwtAuthConfig {
 
+    private static final String[] ALLOWED_PATHS = { "/swagger-ui/**", "/books/**", "/reviews/**", "/autors/**", "/editorials/**", "/categories/**", "/auth/**", "/image/**", "/admin/**" };
+    private static final String EDIT_PRIVILEGE = "EDIT";
+
     private final JwtUserDetailService userDetailService;
     private final BCryptPasswordEncoder passwordEncoder;
 
@@ -48,40 +51,6 @@ public class JwtAuthConfig {
 
     @Value("${jwt.private-key}")
     RSAPrivateKey privateKey;
-
-
-    @Autowired
-    void registerProvider(AuthenticationManagerBuilder builder) throws Exception {
-        builder.userDetailsService(this.userDetailService).passwordEncoder(this.passwordEncoder);
-    }
-
-    @Bean
-    WebMvcConfigurer corsConfigurer() {
-        return new WebMvcConfigurer() {
-            @Override
-            public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**").allowedOrigins("http://localhost:4200").allowedMethods("GET", "POST", "DELETE");;
-            }
-        };
-    }
-
-
-    @Bean
-    SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        http
-                .csrf().disable()
-                .authorizeHttpRequests().antMatchers("/**").permitAll()
-                .anyRequest().authenticated().and()
-                .httpBasic(Customizer.withDefaults())
-                .oauth2ResourceServer(OAuth2ResourceServerConfigurer::jwt)
-                .sessionManagement((session) -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-                .exceptionHandling((exceptions) -> exceptions
-                        .authenticationEntryPoint(new BearerTokenAuthenticationEntryPoint())
-                        .accessDeniedHandler(new BearerTokenAccessDeniedHandler())
-                );
-
-        return http.build();
-    }
 
     @Bean
     JwtDecoder jwtDecoder() {
@@ -93,5 +62,42 @@ public class JwtAuthConfig {
         JWK jwk = new RSAKey.Builder(this.publicKey).privateKey(this.privateKey).build();
         JWKSource<SecurityContext> jwks = new ImmutableJWKSet<>(new JWKSet(jwk));
         return new NimbusJwtEncoder(jwks);
+    }
+
+    @Autowired
+    void registerProvider(AuthenticationManagerBuilder builder) throws Exception {
+        builder.userDetailsService(this.userDetailService).passwordEncoder(this.passwordEncoder);
+    }
+
+    @Bean
+    WebMvcConfigurer corsConfigurer() {
+        return new WebMvcConfigurer() {
+            @Override
+            public void addCorsMappings(CorsRegistry registry) {
+                for (String path : ALLOWED_PATHS) {
+                    registry.addMapping(path)
+                            .allowedOrigins("http://localhost:4200")
+                            .allowedMethods("GET", "POST", "DELETE");
+                }
+            }
+        };
+    }
+
+
+    @Bean
+    SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+        http
+                .csrf().disable()
+                .authorizeHttpRequests().antMatchers(ALLOWED_PATHS).permitAll()
+                .anyRequest().hasAuthority(EDIT_PRIVILEGE).and()
+                .httpBasic(Customizer.withDefaults())
+                .oauth2ResourceServer(OAuth2ResourceServerConfigurer::jwt)
+                .sessionManagement((session) -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+                .exceptionHandling((exceptions) -> exceptions
+                        .authenticationEntryPoint(new BearerTokenAuthenticationEntryPoint())
+                        .accessDeniedHandler(new BearerTokenAccessDeniedHandler())
+                );
+
+        return http.build();
     }
 }

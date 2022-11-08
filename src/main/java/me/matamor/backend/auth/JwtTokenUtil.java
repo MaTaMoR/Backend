@@ -49,12 +49,12 @@ public class JwtTokenUtil {
         return claimsResolver.apply(claims);
     }
 
-    private Jwt getAllClaimsFromToken(String token) throws JwtException {
-        return this.jwtDecoder.decode(token);
-    }
-
-    private boolean isTokenExpired(String token) throws JwtException {
+    public boolean isTokenExpired(String token) throws JwtException {
         Instant expiration = getExpirationDateFromToken(token);
         return expiration.isBefore(Instant.now());
+    }
+
+    private Jwt getAllClaimsFromToken(String token) throws JwtException {
+        return this.jwtDecoder.decode(token);
     }
 }

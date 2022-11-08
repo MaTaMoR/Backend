@@ -20,7 +20,7 @@ SET time_zone = "+00:00";
 -- Base de datos: `bookreview`
 --
 
-DROP DATABASE bookreview;
+DROP DATABASE IF EXISTS bookreview;
 CREATE DATABASE bookreview;
 USE bookreview;
 -- --------------------------------------------------------

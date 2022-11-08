@@ -18,6 +18,14 @@ public class UserService {
         return this.userRepository.save(user);
     }
 
+    public User save(User user) {
+        return this.userRepository.save(user);
+    }
+
+    public User findById(Long id) {
+        return this.userRepository.findById(id).orElse(null);
+    }
+
     public User findByUsername(String email) {
         return this.userRepository.findFirstByUsername(email);
     }
